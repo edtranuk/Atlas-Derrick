@@ -1,0 +1,29 @@
+/* HOMEPAGE CAROUSEL - THIS IS THE SLIDESHOW WHICH IS ON THE HOMEPAGE */
+/*-------------------------------------------*/
+#my-carousel .carousel-inner .item {
+    width: 100%;
+    height: 300px;
+}
+#my-carousel .carousel-inner .item {
+    background-image: url(../img/homecarousel/1.png);
+    background-size: cover;
+    background-position: center top;
+}
+#my-carousel .carousel-inner .item-2 {
+    background-image: url(../img/homecarousel/2.png)
+}
+#my-carousel .carousel-inner .item-3 {
+    background-image: url(../img/homecarousel/3.png)
+}
+@media (min-width:500px) { 
+    #my-carousel .carousel-inner .item {
+        height: 300px;
+    }
+}
+@media (min-width:768px) { 
+    #my-carousel .carousel-inner .item {
+        height: 500px;
+    }
+}
+.carousel-no-padding { padding:0px; }
+
